@@ -28,3 +28,14 @@ img {
   word-break: break-all;
   max-width: 4ch;
 }
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial;
+  }
+
+  .experiencia-texto {
+    font-size: 1.25rem;
+  }
+}
